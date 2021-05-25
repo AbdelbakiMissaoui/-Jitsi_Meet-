@@ -44,8 +44,10 @@ This tutorial explains how to install the Jitsi Meet solution on a virtual cloud
 8.Run docker-compose up -d to download and launch the application.
 
 # Connecting to the Instance
+
 1 . Open a web browser on your local computer and access the web UI at https://<public_instance_ip>/. The Jitsi Meet login screen displays:
 ![jitsiconf](https://github.com/AbdelbakiMissaoui/-Jitsi_Meet-/blob/main/jit.png)
+
 
 Enter a name for your conference and press Go to enter the conference room. It is now possible to share the link, to set a password, configure the audio and video quality and more for the conference.
 

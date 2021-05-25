@@ -1,4 +1,4 @@
-# -Jitsi_Meet-
+
 **Jitsi Meet** is an open source video conferencing service solution providing fully encrypted and secure high quality and audio without subscription or the need to create an account. The solution can either be installed natively on Ubuntu Bionic Beaver (18.04 LTS) and Debian Buster. Another way to install it, is using a containerized application running on Docker.
 This tutorial explains how to install the Jitsi Meet solution on a virtual cloud instance using the [Docker Image](https://github.com/jitsi/docker-jitsi-meet)  provided by the Jitsi team, allowing you to deploy your personal Jitsi Meet video conferencing solution in a few easy steps. It is based on a Debian stable base installation and provides all additional modules availabe for Jitsi like [Etherpad](https://etherpad.org/) or [jigasi](https://github.com/jitsi/jigasi), a gateway allowing SIP connections to the Jitsi Meet instance.
 

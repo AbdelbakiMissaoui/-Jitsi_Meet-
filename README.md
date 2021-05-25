@@ -33,4 +33,18 @@ This tutorial explains how to install the Jitsi Meet solution on a virtual cloud
      mkdir -p ~/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb}
   ```
 6.Open the .env file in a text editor and edit the basic settings as following:
+![.env](https://github.com/AbdelbakiMissaoui/-Jitsi_Meet-/blob/main/Screenshot%20from%202021-05-25%2013-05-33.png)
+
+7.make sure that the following ports are open:
+
+   * 80/tcp for Web UI HTTP (for redirections, after uncommenting ENABLE_HTTP_REDIRECT=1 in .env)
+   * 443/tcp for Web UI HTTPS
+   * 4443/tcp for RTP media over TCP
+   * 10000/udp for RTP media over UDP
+8.Run docker-compose up -d to download and launch the application.
+
+# Connecting to the Instance
+1 . Open a web browser on your local computer and access the web UI at https://<public_instance_ip>/. The Jitsi Meet login screen displays:
+![jitsiconf](https://github.com/AbdelbakiMissaoui/-Jitsi_Meet-/blob/main/Screenshot%20from%202021-05-25%2013-05-33.png)
+
 

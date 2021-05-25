@@ -33,3 +33,4 @@ This tutorial explains how to install the Jitsi Meet solution on a virtual cloud
      mkdir -p ~/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb}
   ```
 6.Open the .env file in a text editor and edit the basic settings as following:
+
